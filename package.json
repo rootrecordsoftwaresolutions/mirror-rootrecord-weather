@@ -1,0 +1,30 @@
+{
+  "name": "root-record-weather-manager",
+  "version": "1.0.12",
+  "description": "Location-scoped weather and hazard monitor for USGS and NOAA data",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "node scripts/build-installer.cjs",
+    "build:electron": "node scripts/build-windows.cjs",
+    "build:installer": "node scripts/build-installer.cjs",
+    "build:installer:signed": "node scripts/build-installer.cjs --sign"
+  },
+  "keywords": [
+    "electron",
+    "weather",
+    "noaa",
+    "usgs"
+  ],
+  "author": "Root Record Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "sqlite3": "^6.0.1"
+  }
+}

@@ -1,0 +1,32 @@
+Root Record Weather Manager
+Commercial API Price Chart (Research List Only - Not Integrated)
+Last updated: 2026-04-16
+
+IMPORTANT
+- Prices and limits can change.
+- Verify on each vendor's official pricing page before purchase.
+- "Contact sales" means no reliable public rate card was available at research time.
+
+====================================================================================================================
+API / Provider             | Public Commercial Pricing Snapshot                              | Notes
+====================================================================================================================
+AccuWeather API            | Free trial: 14 days                                            | Public page shows paid tiers and usage model.
+                           | Starter: from $2/mo (Core Weather)                             | MinuteCast priced separately.
+                           | Standard: from $25/mo (Core Weather)                           | CPM overage model applies by plan.
+                           | MinuteCast examples: $25/mo starter, $100/mo standard         |
+--------------------------------------------------------------------------------------------------------------------
+OpenWeather                | Public page lists plans (Startup/Developer/Professional/Expert)| Exact self-serve dollar pricing not reliably
+                           | Enterprise references from ~GBP 3,000/mo (contract)           | available in research snapshot; confirm directly.
+--------------------------------------------------------------------------------------------------------------------
+====================================================================================================================
+
+Recommended "quick-start shortlist" (publicly priced)
+1) AccuWeather API
+
+Recommended "enterprise shortlist" (needs quote)
+1) OpenWeather Enterprise
+
+Official pages to verify before procurement
+- AccuWeather developer pricing: https://developer.accuweather.com/pricing
+- OpenWeather pricing: https://openweathermap.org/price
+
