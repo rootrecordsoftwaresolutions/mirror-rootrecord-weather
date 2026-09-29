@@ -1,17 +1,13 @@
-# Root Record Weather Manager
+# mirror-rootrecord-weather
 
-Desktop app (Electron) for location-specific NOAA alerts and USGS earthquake data.
+> **Inventory mirror (2026-08)** — not primary development.
 
-## Core Rule
+> **Authority:** [RootRecord-Software-Solutions](https://github.com/RootRecord-Software-Solutions) (org)  
+> **Docs index:** [MIGRATION-DOCS-INDEX](https://github.com/RootRecord-Software-Solutions/RootRecord-Library/blob/main/Documentation/00-architecture/MIGRATION-DOCS-INDEX-2026-09-28.md)  
+> **Product / archive catalog:** [Product-Archive-Repo-Catalog](https://github.com/RootRecord-Software-Solutions/RootRecord-Library/blob/main/Documentation/00-architecture/Product-Archive-Repo-Catalog-2026-09-28.md)  
+> **Live Pacific:** [RootRecord-Pacific-Solar-Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server)  
+> **Library:** [RootRecord-Library](https://github.com/RootRecord-Software-Solutions/RootRecord-Library)
 
-Users must complete setup and save at least one location before the app can fetch any external data.
+Mirror of Root Record Weather Manager (desktop). **Do not develop here.** Product track D (Weather).
 
-## Run
-
-1. `npm install`
-2. `npm start`
-
-## Data Sources
-
-- NOAA alerts: `https://api.weather.gov/alerts/active`
-- USGS earthquakes: `https://earthquake.usgs.gov/fdsnws/event/1/query`
+*Transition banner 2026-09-28 HST.*
